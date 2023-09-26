@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: all ease 0.2s;
+}
+
+body {
+  background-color: white;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(156, 156, 156);
+  padding: 10px;
+  width: 100%;
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px rgb(107, 0, 0);
+}
+
+#btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 20px 20px;
+  font-size: 40px;
+  border: 3px solid;
+  background-color: papayawhip;
+  color: rgb(54, 0, 0);
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+
+#btn:hover {
+  background-color: papayawhip;
+  transform: scale(1.1);
+}
+
+button {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.6s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+#white {
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+}
+#black {
+  border: 1px solid white;
+  background-color: black;
+}
+#purple {
+  background-color: rgb(68, 0, 68);
+  border: 1px solid white;
+}
+#red {
+  background-color: rgb(105, 0, 0);
+  border: 1px solid white;
+}
+.colors {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  left: 10px;
+}
+
+.note {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.hand-cursor {
+  cursor: grabbing;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
